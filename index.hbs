@@ -35,6 +35,26 @@
   </div>
 </section>
 
+<a name="news"></a>
+<section id="news">
+  <div class="text container ui middle aligned grid about-info">
+    <div class="sixteen wide column">
+      <h2>Latest News</h2>
+    </div>
+    <div class="centered row">
+      {{#foreach posts limit=4}}
+        <div class="eight wide column">
+          <h4><a href="{{url}}">{{title}}</a></h4>
+          <p>{{excerpt words="32"}}</p>
+          <p><a class="read-more" href="{{url}}">&raquo;</a></p>
+        </div>
+      {{/foreach}}
+    <div class="sixteen wide column">
+      <h4><a href="">Click here for more posts</a></h4>
+    </div>
+  </div>
+</section>
+
 <a name="faqs"></a>
 <section id="faqs" class="">
   <div class="text container ui middle aligned grid">

@@ -1,7 +1,7 @@
 section#landing {
-  height: inherit;
+  height: 100%;
   width: 100%;
-  background: url("../images/hackathonSmartCities.png");
+  background: url("../../assets/images/hackathonSmartCities.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -22,8 +22,14 @@ section#about>div.about-info {
   width: 100%;
 }
 
+section#news {
+  padding-bottom: 2em;
+  width: 100%;
+  background-color: green;
+}
+
 section#faqs {
-  padding-bottom: 30px;
+  padding-bottom: 2em;
   width: 100%;
   background-color: orange;
 }
